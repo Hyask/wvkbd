@@ -202,7 +202,7 @@ static struct key keys_full[] = {
   {"p", "P", 1.0, Code, KEY_P, &layouts[ComposeP]},
   {"", "", 0.0, EndRow},
 
-  {"Cmp", "Cmp", 1.0, Compose, .scheme = 1},
+  {"", "", 0.5, Pad},
   {"a", "A", 1.0, Code, KEY_A, &layouts[ComposeA]},
   {"s", "S", 1.0, Code, KEY_S, &layouts[ComposeS]},
   {"d", "D", 1.0, Code, KEY_D, &layouts[ComposeD]},
@@ -212,7 +212,7 @@ static struct key keys_full[] = {
   {"j", "J", 1.0, Code, KEY_J, &layouts[ComposeJ]},
   {"k", "K", 1.0, Code, KEY_K, &layouts[ComposeK]},
   {"l", "L", 1.0, Code, KEY_L, &layouts[ComposeL]},
-  {"", "", 0.5, Pad},
+  {"Cmp", "Cmp", 1.0, Compose, .scheme = 1},
   {"", "", 0.0, EndRow},
 
   {"⇧", "⇫", 1.5, Mod, Shift, .scheme = 1},
@@ -223,7 +223,7 @@ static struct key keys_full[] = {
   {"b", "B", 1.0, Code, KEY_B, &layouts[ComposeB]},
   {"n", "N", 1.0, Code, KEY_N, &layouts[ComposeN]},
   {"m", "M", 1.0, Code, KEY_M, &layouts[ComposeM]},
-  {"⌫", "⌫", 1.5, Code, KEY_BACKSPACE, .scheme = 1},
+  {"⌫", "⌫", 2.0, Code, KEY_BACKSPACE, .scheme = 1},
   {"", "", 0.0, EndRow},
 
   {"Sym", "Sym", 1.0, NextLayer, .scheme = 1},
